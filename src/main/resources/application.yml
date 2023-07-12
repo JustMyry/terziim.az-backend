@@ -1,0 +1,21 @@
+jwt:
+  secretpass: 'az2011indice.comex2077notis'
+
+server:
+  port: 7077
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/terziim
+    password: ex753kawaei
+    username: exnotis
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      generate-ddl: true
+      show-sql: true
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+        dialect: org.hibernate.dialect.MySQL5Dialect

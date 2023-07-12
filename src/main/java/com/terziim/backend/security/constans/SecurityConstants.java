@@ -1,0 +1,35 @@
+package com.terziim.backend.security.constans;
+
+public class SecurityConstants {
+
+
+    public static final long EXPIRATION_TIME = 432_000_000; // 5 days expressed in milliseconds
+
+    public static final String TOKEN_PREFIX = "Bearer ";
+
+    public static final String JWT_TOKEN_HEADER = "Jwt-Token";
+
+    public static final String TOKEN_CANNOT_BE_VERIFIED = "Token cannot be verified";
+
+    public static final String GET_ARRAYS_LLC = "INDICE Inc.";
+
+    public static final String GET_ARRAYS_ADMINISTRATION = "terziim.com";
+
+    public static final String AUTHORITIES = "authorities";
+
+    public static final String FORBIDDEN_MESSAGE =
+            "FORBIDDEN | You don't have permission to access [directory] on this server.";
+
+    public static final String ACCESS_DENIED_MESSAGE =
+            "UNAUTHORIZED";
+
+    public static final String OPTIONS_HTTP_METHOD = "OPTIONS";
+
+    //public static final String[] PUBLIC_URLS = { "/register", "/login", "/user/picture"};
+
+    public static final String[] PUBLIC_URLS = { "/**" };
+
+    public static final String EXTOKEN = "IndiceToken";
+    public static final String EXTOKEN_PREFIX = "IndiceToken ";
+
+}
